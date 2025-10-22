@@ -648,236 +648,8 @@
   opacity: 0.9;
 }
 
-/* Style cho phần trồng cây */
-    #garden {
-      background: #ffffff;
-      color: #0d47a1;
-      padding: 2rem;
-    }
-    
-    .garden-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
-    }
-    
-    .garden-stats {
-      display: flex;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-    }
-    
-    .stat-card {
-      background: #e3f2fd;
-      padding: 1rem 1.5rem;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    .stat-value {
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #1565c0;
-    }
-    
-    .stat-label {
-      font-size: 0.9rem;
-      color: #0d47a1;
-    }
-    
-    .garden-container {
-      display: flex;
-      gap: 2rem;
-    }
-    
-    .garden-plot {
-      flex: 2;
-      background: #e8f5e9;
-      border-radius: 15px;
-      padding: 2rem;
-      text-align: center;
-      min-height: 400px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    
-    .plant {
-      transition: all 0.5s ease;
-    }
-    
-    .plant-seed {
-      width: 40px;
-      height: 40px;
-      background: #8d6e63;
-      border-radius: 50%;
-    }
-    
-    .plant-sprout {
-      width: 60px;
-      height: 100px;
-      background: linear-gradient(to bottom, #4caf50, #81c784);
-      border-radius: 30px 30px 0 0;
-      position: relative;
-    }
-    
-    .plant-sprout::before {
-      content: "";
-      position: absolute;
-      top: -20px;
-      left: 15px;
-      width: 30px;
-      height: 30px;
-      background: #4caf50;
-      border-radius: 50%;
-    }
-    
-    .plant-small {
-      width: 80px;
-      height: 150px;
-      background: linear-gradient(to bottom, #388e3c, #66bb6a);
-      border-radius: 40px 40px 0 0;
-      position: relative;
-    }
-    
-    .plant-small::before {
-      content: "";
-      position: absolute;
-      top: -30px;
-      left: 20px;
-      width: 40px;
-      height: 40px;
-      background: #388e3c;
-      border-radius: 50%;
-    }
-    
-    .plant-medium {
-      width: 100px;
-      height: 200px;
-      background: linear-gradient(to bottom, #2e7d32, #4caf50);
-      border-radius: 50px 50px 0 0;
-      position: relative;
-    }
-    
-    .plant-medium::before {
-      content: "";
-      position: absolute;
-      top: -40px;
-      left: 25px;
-      width: 50px;
-      height: 50px;
-      background: #2e7d32;
-      border-radius: 50%;
-    }
-    
-    .plant-large {
-      width: 120px;
-      height: 250px;
-      background: linear-gradient(to bottom, #1b5e20, #388e3c);
-      border-radius: 60px 60px 0 0;
-      position: relative;
-    }
-    
-    .plant-large::before {
-      content: "";
-      position: absolute;
-      top: -50px;
-      left: 30px;
-      width: 60px;
-      height: 60px;
-      background: #1b5e20;
-      border-radius: 50%;
-    }
-    
-    .garden-shop {
-      flex: 1;
-      background: #f5f5f5;
-      border-radius: 15px;
-      padding: 1.5rem;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    
-    .shop-title {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
-      color: #1565c0;
-      text-align: center;
-    }
-    
-    .shop-items {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-    }
-    
-    .shop-item {
-      background: #ffffff;
-      border-radius: 10px;
-      padding: 1rem;
-      text-align: center;
-      cursor: pointer;
-      transition: transform 0.2s;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    .shop-item:hover {
-      transform: translateY(-5px);
-    }
-    
-    .shop-item.locked {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-    
-    .item-icon {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    
-    .item-name {
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-    
-    .item-price {
-      color: #f57c00;
-      font-weight: bold;
-    }
-    
-    .garden-message {
-      margin-top: 1rem;
-      padding: 1rem;
-      background: #e3f2fd;
-      border-radius: 10px;
-      text-align: center;
-      font-style: italic;
-    }
-    
-    .water-button {
-      background: #2196f3;
-      color: white;
-      border: none;
-      padding: 0.8rem 1.5rem;
-      border-radius: 8px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-top: 1rem;
-      transition: background 0.3s;
-    }
-    
-    .water-button:hover {
-      background: #1976d2;
-    }
-    
-    .water-button:disabled {
-      background: #90caf9;
-      cursor: not-allowed;
-    }
+
+
   </style>
 </head>
 <body>
@@ -889,10 +661,10 @@
     </div>
     
     <button onclick="showSection('dictionary')" class="active">Từ Điển</button>
-    <button onclick="showSection('quiz')">Quiz</button>
-    <button onclick="showSection('vocab-games')">Trò chơi từ vựng</button>
+    <button onclick="showSection('vocab-games')">Trò Chơi Từ Vựng</button>
     <button onclick="showSection('tenses')">Thì</button>
     <button onclick="showSection('sentence')">Câu</button>
+    <button onclick="showSection('sentence-games')"> Trò Chơi Câu</button>
     <button onclick="showSection('card')">Flash Card</button>
     <button onclick="openAccount()">Tài khoản của tôi</button>
   </div>
@@ -906,14 +678,6 @@
         <input type="text" id="searchInput" placeholder="Tìm từ tiếng Anh..." />
       </div>
       <ul class="word-list" id="wordList"></ul>
-    </div>
-
-    <div id="quiz" class="content-section">
-      <h2>Quiz Section</h2>
-      <div class="quiz-question" id="quiz-question">Loading question...</div>
-      <ul class="options" id="quiz-options"></ul>
-      <div class="feedback" id="quiz-feedback"></div>
-      <button id="btn-next" class="btn-next" disabled>Next Question</button>
     </div>
 
     <!-- KHÔNG GIAN BÀI TẬP -->
@@ -1149,20 +913,16 @@
       <h2>Trò chơi từ vựng</h2>
       <div class="vocab-game-grid">
         <div class="game-box">
-          <div class="game-icon">❓📘</div>
+          <div class="game-icon"><img src="https://cdn-icons-png.flaticon.com/128/15128/15128933.png"/></div>
           <div class="game-label">Nhiều lựa chọn</div>      
         </div> 
           <div class="game-box" onclick="openGuessWord()">
-          <div class="game-icon">📘❓</div>
+          <div class="game-icon"><img src="https://cdn-icons-png.flaticon.com/128/10829/10829660.png"/></div>
           <div class="game-label">Đoán từ</div>
         </div>
         <div class="game-box">
-          <div class="game-icon">⭕❌</div>
+          <div class="game-icon"><img src="https://cdn-icons-png.flaticon.com/128/14682/14682677.png"/></div>
           <div class="game-label">Bảng điều khiển</div>
-        </div>
-        <div class="game-box">
-          <div class="game-icon">⌨️📘</div>
-          <div class="game-label">Tập gõ từ vựng</div>
         </div>
       </div>
     </div>
@@ -1463,81 +1223,15 @@
   <div id="flashcard-container" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1rem;"></div>
 </div>
 
+<div id="sentence-games" class="content-section" style="margin:0; padding:0;">
+  <iframe 
+    src="filling-game.html" 
+    style="width:100%; height:100vh; border:none; margin:0; display:block;">
+  </iframe>
+</div>
 
-<!-- Thêm phần Mochi Garden -->
-    <div id="garden" class="content-section">
-      <div class="garden-header">
-        <h2>Mochi Garden</h2>
-        <div class="garden-stats">
-          <div class="stat-card">
-            <div class="stat-value" id="energy-count">0</div>
-            <div class="stat-label">Năng lượng</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value" id="coin-count">0</div>
-            <div class="stat-label">Xèng</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value" id="plant-level">1</div>
-            <div class="stat-label">Cấp cây</div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="garden-container">
-        <div class="garden-plot">
-          <div class="plant" id="current-plant"></div>
-          <div class="garden-message" id="garden-message">
-            Tifé quá! Học mỗi ngày để nuôi cây lớn bạn nhé!
-          </div>
-          <button class="water-button" id="water-button" onclick="waterPlant()" disabled>Tưới cây (10 năng lượng)</button>
-        </div>
-        
-        <div class="garden-shop">
-          <div class="shop-title">VẬT PHẨM MOCHI</div>
-          <div class="shop-items">
-            <div class="shop-item" onclick="buyItem('seed')">
-              <div class="item-icon">🌱</div>
-              <div class="item-name">Hạt giống mới</div>
-              <div class="item-price">50 Xèng</div>
-            </div>
-            <div class="shop-item" onclick="buyItem('fertilizer')">
-              <div class="item-icon">💩</div>
-              <div class="item-name">Phân bón</div>
-              <div class="item-price">30 Xèng</div>
-            </div>
-            <div class="shop-item" onclick="buyItem('decoration1')">
-              <div class="item-icon">🪴</div>
-              <div class="item-name">Chậu cây xinh</div>
-              <div class="item-price">80 Xèng</div>
-            </div>
-            <div class="shop-item" onclick="buyItem('decoration2')">
-              <div class="item-icon">🦋</div>
-              <div class="item-name">Bướm trang trí</div>
-              <div class="item-price">60 Xèng</div>
-            </div>
-          </div>
-          
-          <div style="margin-top: 2rem;">
-            <div class="shop-title">Trồng cây khác</div>
-            <div class="shop-items">
-              <div class="shop-item locked" id="tree-item">
-                <div class="item-icon">🌳</div>
-                <div class="item-name">Cây cổ thụ</div>
-                <div class="item-price">Mở khóa ở cấp 5</div>
-              </div>
-              <div class="shop-item locked" id="flower-item">
-                <div class="item-icon">🌺</div>
-                <div class="item-name">Hoa rực rỡ</div>
-                <div class="item-price">Mở khóa ở cấp 3</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </div>
+
   <script>
   /*Từ vựng*/
     const vocabulary = [
@@ -2002,16 +1696,33 @@ async function generateFamilyWords(baseWord) {
     if (canCheck) {
       for (let cand of list) {
         try {
+          // isValidWord có thể gọi API dictionary; nếu true -> chọn
+          // thêm timeout/bail-out nếu cần
+          /* eslint-disable no-await-in-loop */
+          // đảm bảo loại bỏ khoảng trắng và ký tự lạ
           cand = cand.trim();
           if (!cand) continue;
+          // một số API không chấp nhận multi-word; bỏ qua
           if (cand.includes(' ')) continue;
+          // Kiểm tra
+          // isValidWord có thể ném lỗi nếu API trục trặc
+          // Do isValidWord đã có trong file gốc, tận dụng nó
+          // Nhưng nếu việc gọi API thất bại (mạng), fallback sẽ áp dụng
+          // await isValidWord may be slow; but acceptable here.
+          // Nếu isValidWord không tồn tại, bật fallback để hiển thị dạng suy đoán.
+          // Nếu isValidWord trả true => chọn và break
+          // Nếu isValidWord trả false => tiếp
+          // Nếu isValidWord ném => catch và tiếp
+          // IMPORTANT: nếu isValidWord quá chậm hoặc hạn chế CORS, fallback sẽ hiển thị phán đoán.
+          // Thời gian chờ không được áp dụng ở đây để code đơn giản — có thể thêm timeout nếu cần.
           if (await isValidWord(cand)) { chosen = cand; break; }
         } catch (e) {
-          
+          // ignore và dùng fallback
         }
       }
     }
     if (!chosen) {
+      // fallback: lấy candidate đầu tiên hợp lý
       chosen = list.find(Boolean) || '';
     }
     result[kind] = chosen;
@@ -2047,32 +1758,55 @@ async function generateTenseExamples(word) {
   return examples;
 }
 
-// ...existing code...
-async function getFamilyWords(word) {
-  const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`;
-  const res = await fetch(url);
-  const data = await res.json();
-  if (!Array.isArray(data)) return { noun: '', verb: '', adjective: '', adverb: '', related: [] };
+async function showGrammarAndFamilyWords(selectedWord) {
+  const cleaned = normalize(selectedWord);
+  const wordForLookup = (window.currentWordForSynonyms || cleaned).toString().trim();
+  if (!wordForLookup) {
+    // clear fields
+    ['familyNoun','familyVerb','familyAdjective','familyAdverb','presentSimple','pastSimple','futureSimple','presentContinuous','pastContinuous','futureContinuous','presentPerfect','pastPerfect','futurePerfect']
+      .forEach(id => { const el = document.getElementById(id); if (el) el.innerText = ''; });
+    return;
+  }
 
-  let noun = '', verb = '', adjective = '', adverb = '';
-  data[0].meanings.forEach(m => {
-    if (m.partOfSpeech === 'noun' && !noun) noun = m.definitions[0]?.definition || '';
-    if (m.partOfSpeech === 'verb' && !verb) verb = m.definitions[0]?.definition || '';
-    if (m.partOfSpeech === 'adjective' && !adjective) adjective = m.definitions[0]?.definition || '';
-    if (m.partOfSpeech === 'adverb' && !adverb) adverb = m.definitions[0]?.definition || '';
-  });
+  // Family words
+  const family = await generateFamilyWords(wordForLookup);
+  if (document.getElementById('familyNoun')) document.getElementById('familyNoun').innerText = family.noun || '-';
+  if (document.getElementById('familyVerb')) document.getElementById('familyVerb').innerText = family.verb || (normalize(wordForLookup) || '-');
+  if (document.getElementById('familyAdjective')) document.getElementById('familyAdjective').innerText = family.adjective || '-';
+  if (document.getElementById('familyAdverb')) document.getElementById('familyAdverb').innerText = family.adverb || '-';
 
-  let related = {};
-  data[0].meanings.forEach(m => {
-    m.definitions.forEach(d => {
-      if (d.synonyms) d.synonyms.forEach(s => related[s] = true);
-      if (d.antonyms) d.antonyms.forEach(a => related[a] = true);
-    });
-  });
-
-  return { noun, verb, adjective, adverb, related: Object.keys(related) };
+  // Tenses
+  const tenses = await generateTenseExamples(wordForLookup);
+  if (document.getElementById('presentSimple')) document.getElementById('presentSimple').innerText = tenses.presentSimple;
+  if (document.getElementById('pastSimple')) document.getElementById('pastSimple').innerText = tenses.pastSimple;
+  if (document.getElementById('futureSimple')) document.getElementById('futureSimple').innerText = tenses.futureSimple;
+  if (document.getElementById('presentContinuous')) document.getElementById('presentContinuous').innerText = tenses.presentContinuous;
+  if (document.getElementById('pastContinuous')) document.getElementById('pastContinuous').innerText = tenses.pastContinuous;
+  if (document.getElementById('futureContinuous')) document.getElementById('futureContinuous').innerText = tenses.futureContinuous;
+  if (document.getElementById('presentPerfect')) document.getElementById('presentPerfect').innerText = tenses.presentPerfect;
+  if (document.getElementById('pastPerfect')) document.getElementById('pastPerfect').innerText = tenses.pastPerfect;
+  if (document.getElementById('futurePerfect')) document.getElementById('futurePerfect').innerText = tenses.futurePerfect;
 }
-// ...existing code...
+
+// Attach to grammar tab click (overwrite existing listener behavior safely)
+(function attachGrammarTab() {
+  const btn = document.querySelector('.tab-item[data-tab="grammar"]');
+  if (!btn) return;
+  btn.removeEventListener('click', btn._grammarClickHandler);
+  const handler = async function () {
+    const wordEl = document.getElementById('wordMeaning');
+    let word = window.currentWordForSynonyms || (wordEl && wordEl.textContent) || '';
+    word = normalize(word);
+    if (!word) {
+      alert('Chưa chọn từ! Vui lòng chọn một từ trong danh sách.');
+      return;
+    }
+    await showGrammarAndFamilyWords(word);
+  };
+  // store ref so removeEventListener can work in future
+  btn._grammarClickHandler = handler;
+  btn.addEventListener('click', handler);
+})();
 
     // Microphone functionality
     function showSection(id) {
@@ -3135,235 +2869,24 @@ function logout() {
   showSection("account");
 }
 
+  function increaseLearnedWords() {
+  let data = JSON.parse(localStorage.getItem("gardenProgress")) || { learnedWords: 0, controlBoardDone: 0, dailyGoal: 30 };
+  data.learnedWords += 1;
+  localStorage.setItem("gardenProgress", JSON.stringify(data));
+  console.log("📚 Đã học thêm 1 từ. Tổng số:", data.learnedWords);
+}
+
+  function completeControlBoard() {
+  let data = JSON.parse(localStorage.getItem("gardenProgress")) || { learnedWords: 0, controlBoardDone: 0, dailyGoal: 30 };
+  data.controlBoardDone += 1;
+  localStorage.setItem("gardenProgress", JSON.stringify(data));
+  alert("🎯 Bạn đã hoàn thành một nhiệm vụ bảng điều khiển!");
+}
 
 
-// Hệ thống trồng cây
-    let gardenData = {
-      energy: 0,
-      coins: 0,
-      plantLevel: 1,
-      plantType: 'default',
-      items: [],
-      dailyStudy: 0
-    };
-    
-    // Khởi tạo dữ liệu vườn
-    function initGarden() {
-      const saved = localStorage.getItem('mochiGarden');
-      if (saved) {
-        gardenData = JSON.parse(saved);
-      }
-      updateGardenDisplay();
-    }
-    
-    // Cập nhật hiển thị vườn
-    function updateGardenDisplay() {
-      document.getElementById('energy-count').textContent = gardenData.energy;
-      document.getElementById('coin-count').textContent = gardenData.coins;
-      document.getElementById('plant-level').textContent = gardenData.plantLevel;
-      
-      // Hiển thị cây theo cấp độ
-      const plantElement = document.getElementById('current-plant');
-      plantElement.className = 'plant';
-      
-      if (gardenData.plantLevel === 1) {
-        plantElement.classList.add('plant-seed');
-      } else if (gardenData.plantLevel === 2) {
-        plantElement.classList.add('plant-sprout');
-      } else if (gardenData.plantLevel === 3) {
-        plantElement.classList.add('plant-small');
-      } else if (gardenData.plantLevel === 4) {
-        plantElement.classList.add('plant-medium');
-      } else if (gardenData.plantLevel >= 5) {
-        plantElement.classList.add('plant-large');
-      }
-      
-      // Kiểm tra nút tưới cây
-      const waterButton = document.getElementById('water-button');
-      waterButton.disabled = gardenData.energy < 10;
-      
-      // Kiểm tra mở khóa các loại cây
-      const treeItem = document.getElementById('tree-item');
-      const flowerItem = document.getElementById('flower-item');
-      
-      if (gardenData.plantLevel >= 5) {
-        treeItem.classList.remove('locked');
-        treeItem.onclick = () => buyItem('tree');
-      }
-      
-      if (gardenData.plantLevel >= 3) {
-        flowerItem.classList.remove('locked');
-        flowerItem.onclick = () => buyItem('flower');
-      }
-      
-      // Lưu dữ liệu
-      localStorage.setItem('mochiGarden', JSON.stringify(gardenData));
-    }
-    
-    // Thêm năng lượng khi học từ vựng
-    function addEnergy(amount) {
-      gardenData.energy += amount;
-      gardenData.dailyStudy += amount;
-      
-      // Thưởng thêm nếu học nhiều trong ngày
-      if (gardenData.dailyStudy >= 50) {
-        gardenData.coins += 5;
-        gardenData.dailyStudy = 0;
-        showMessage("Chúc mừng! Bạn đã nhận được 5 Xèng thưởng!");
-      }
-      
-      updateGardenDisplay();
-    }
-    
-    // Tưới cây
-    function waterPlant() {
-      if (gardenData.energy >= 10) {
-        gardenData.energy -= 10;
-        gardenData.plantLevel += 1;
-        
-        // Thưởng Xèng khi cây lên cấp
-        if (gardenData.plantLevel % 2 === 0) {
-          gardenData.coins += 10;
-          showMessage(`Cây đã lên cấp ${gardenData.plantLevel}! Nhận 10 Xèng!`);
-        } else {
-          showMessage(`Cây đã lên cấp ${gardenData.plantLevel}!`);
-        }
-        
-        updateGardenDisplay();
-      }
-    }
-    
-    // Mua vật phẩm
-    function buyItem(itemType) {
-      let cost = 0;
-      let message = "";
-      
-      switch(itemType) {
-        case 'seed':
-          cost = 50;
-          message = "Đã mua hạt giống mới!";
-          break;
-        case 'fertilizer':
-          cost = 30;
-          message = "Đã mua phân bón! Cây sẽ phát triển nhanh hơn!";
-          // Tăng tốc độ phát triển
-          gardenData.plantLevel += 1;
-          break;
-        case 'decoration1':
-          cost = 80;
-          message = "Đã mua chậu cây xinh!";
-          gardenData.items.push('decoration1');
-          break;
-        case 'decoration2':
-          cost = 60;
-          message = "Đã mua bướm trang trí!";
-          gardenData.items.push('decoration2');
-          break;
-        case 'tree':
-          cost = 100;
-          message = "Đã mua cây cổ thụ!";
-          gardenData.plantType = 'tree';
-          break;
-        case 'flower':
-          cost = 70;
-          message = "Đã mua hoa rực rỡ!";
-          gardenData.plantType = 'flower';
-          break;
-      }
-      
-      if (gardenData.coins >= cost) {
-        gardenData.coins -= cost;
-        showMessage(message);
-        updateGardenDisplay();
-      } else {
-        showMessage("Bạn không đủ Xèng để mua vật phẩm này!");
-      }
-    }
-    
-    // Hiển thị thông báo
-    function showMessage(message) {
-      const messageElement = document.getElementById('garden-message');
-      messageElement.textContent = message;
-      
-      // Tự động ẩn thông báo sau 3 giây
-      setTimeout(() => {
-        messageElement.textContent = "Tifé quá! Học mỗi ngày để nuôi cây lớn bạn nhé!";
-      }, 3000);
-    }
-    
-    // Tích hợp với các trò chơi từ vựng hiện có
-    // Sửa đổi hàm chọn đáp án đúng trong trò chơi nhiều lựa chọn
-    function chooseOption(el, opt) {
-      if(attempts <= 0) return;
-
-      if(opt === currentWord.vn){
-        // chọn đúng
-        el.classList.add("disabled");
-        el.style.background="#4caf50"; el.style.color="#fff";
-        el.innerHTML = opt + '<span class="circle-mark green">✔</span>';
-        playSound("correct");
-        document.getElementById("mc-retry").style.display="inline-block";
-        document.getElementById("mc-next").style.display="inline-block";
-        attempts = 0;
-        addWordToFlashcards(currentWord);
-        
-        // THÊM: Cung cấp năng lượng cho vườn
-        addEnergy(5);
-      } else {
-        // chọn sai
-        el.classList.add("disabled");
-        el.style.background="#e53935"; el.style.color="#fff";
-        el.innerHTML = opt + '<span class="circle-mark red">✖</span>';
-        playSound("wrong");
-        attempts--;
-
-        if(attempts === 0){
-          // hết lượt → show đáp án đúng và chỉ cho "Tiếp theo"
-          let opts = document.querySelectorAll(".mc-option");
-          opts.forEach(d=>{
-            if(d.innerText===currentWord.vn){
-              d.style.background="#4caf50"; d.style.color="#fff";
-              d.innerHTML = currentWord.vn + '<span class="circle-mark green">✔</span>';
-            }
-          });
-          document.getElementById("mc-retry").style.display="none";
-          document.getElementById("mc-next").style.display="inline-block";
-        }
-      }
-    }
-    
-    // Tương tự cho các trò chơi khác
-    function chooseGuessOption(el, opt) {
-      if(gwAttempts<=0) return;
-
-      if(opt===gwCurrentWord.eng){
-        el.classList.add("disabled");
-        el.style.background="#4caf50"; el.style.color="#fff";
-        el.innerHTML = opt + '<span class="circle-mark green">✔</span>';
-        playSound("correct");
-        speakWord(opt);
-        document.getElementById("gw-retry").style.display="inline-block";
-        document.getElementById("gw-next").style.display="inline-block";
-        gwAttempts=0;
-        addWordToFlashcards(gwCurrentWord);
-        
-        // THÊM: Cung cấp năng lượng cho vườn
-        addEnergy(5);
-      } else {
-        // ... phần còn lại giữ nguyên
-      }
-    }
-    
-    // Khởi tạo vườn khi trang được tải
-    window.addEventListener('DOMContentLoaded', () => {
-      initGarden();
-    });
     renderDictionary();
   </script>
       <audio id="sound-correct" src="sounds/correct.mp3"></audio>
       <audio id="sound-wrong" src="sounds/wrong.mp3"></audio>
 </body>
-
 </html>
-
-
